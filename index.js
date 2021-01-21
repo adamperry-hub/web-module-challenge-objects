@@ -46,7 +46,7 @@ Using the burger object below do the following:
 
   For example: burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2
 */
-//function inside of an object
+function inside of an object
 
 export const burger = {
   name: "Burger", 
@@ -58,7 +58,8 @@ export const burger = {
   }
 }
 test
-
+ 
+fdthhfs
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
