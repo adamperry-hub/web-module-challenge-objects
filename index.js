@@ -15,9 +15,13 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+function createMenuItem(name, price, category){
+  return {name, price, category}
 }
+console.log(createMenuItem('tacos', '8', 'Lunch'))
+console.log(createMenuItem('quesadilla', '10', 'Lunch'))
+console.log(createMenuItem('bowl', '9', 'Anytime'))
+    
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
@@ -27,8 +31,7 @@ Test your createMenuItems function by doing the following:
   3. Log each returned object to the console  
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
-*/
-
+*/ 
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -43,14 +46,18 @@ Using the burger object below do the following:
 
   For example: burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2
 */
+//function inside of an object
 
 export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
   /*Your code here*/
-}
+  discount:function(string){
 
+  }
+}
+test
 
 
 ///////////////Reviews (MVP)///////////////////
@@ -68,8 +75,8 @@ const reviews = [
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
-*/
-
+//invoke 
+{name: "Julius", rating: 2, feedback: "I was largely unimpressed by this venue. Nothing special on the menu and too expensive. The atmosphere is polarizing, and not for me, but I think some would like it." },
 
 
 
@@ -79,7 +86,7 @@ Using the reviews array above do the following: (no function needed)
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
-
+//add to end
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -87,7 +94,7 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
-
+// {name: "Reyna", rating: 3.5, feedback: ""},add review and invoke
 
 
 
@@ -119,7 +126,7 @@ Use the getLastReview function below to do the following:
   
   For example: getLastReview(reviews) would return: "Reyna gave the restaurant a 3.5 star review, and their feedback was: this place is chill with really cool people, great for getting work done on weekdays".
 */
-
+// how would we return the last item in array
 
 function getLastReview(/*Your code here*/) {
   /*Your code here*/
